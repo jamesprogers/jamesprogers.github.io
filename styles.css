@@ -3,21 +3,52 @@ body {
 }
 
 header {
+  padding: 50px;
+  border: 10px dashed;
   font-size: 300%;
 }
 
+
 section {
   color: white;
+  margin: 100px;
 
+}
+
+a:visited {
+color: orange;
+}
+.intro {
+  font-weight: bold;
 }
 
 article {
   padding-left: 100px;
+  background-image: url("sailboat_icon.png");
+
+}
+img {
+  max-width: 90%;
+}
+blockquote {
+  color: red;
 }
 
 fieldset {
   background-color: orange;
+  font-family: courier;
 }
+
+#learn {
+  font-variant: small-caps;
+}
+
 footer {
-  margin-top: 100px;
+  text-align: center;
+}
+
+@media screen and (min-width: 650px) {
+  body {
+    font-size: 120%;
+    }
 }

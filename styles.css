@@ -1,0 +1,23 @@
+body {
+ background: gray;
+}
+
+header {
+  font-size: 300%;
+}
+
+section {
+  color: white;
+
+}
+
+article {
+  padding-left: 100px;
+}
+
+fieldset {
+  background-color: orange;
+}
+footer {
+  margin-top: 100px;
+}
